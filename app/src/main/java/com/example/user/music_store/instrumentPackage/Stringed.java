@@ -4,7 +4,7 @@ package com.example.user.music_store.instrumentPackage;
  * Created by user on 08/09/2017.
  */
 
-public class Stringed extends Instrument{
+public class Stringed extends Instrument {
 
     private int numOfStrings;
 

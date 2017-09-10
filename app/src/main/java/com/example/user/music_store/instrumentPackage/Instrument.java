@@ -13,7 +13,6 @@ public abstract class Instrument implements Playable, Sellable {
     String name;
     int buyPrice;
     int sellPrice;
-    private int numOfStrings;
 
     public Instrument(Enum<instrumentType> family, String name, int buyPrice, int sellPrice){
         this.family = family;
@@ -40,6 +39,10 @@ public abstract class Instrument implements Playable, Sellable {
 
     public String play() {
         return "What a lovely sound!";
+    }
+
+    public double getProfit() {
+        return sellPrice - buyPrice;
     }
 
 }

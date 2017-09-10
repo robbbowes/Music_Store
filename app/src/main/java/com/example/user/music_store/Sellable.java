@@ -5,5 +5,5 @@ package com.example.user.music_store;
  */
 
 public interface Sellable {
-
+    public double getProfit();
 }

@@ -20,6 +20,12 @@ public class StringedTest {
     }
 
     @Test
+    public void hasName() {
+        Stringed bassGuitar = new Stringed(instrumentType.STRINGED, "Bass Guitar", 60, 90, 4);
+        assertEquals( "Bass Guitar", bassGuitar.getName() );
+    }
+
+    @Test
     public void hasBuyPrice() {
         Stringed bassGuitar = new Stringed(instrumentType.STRINGED, "Bass Guitar", 60, 90, 4);
         assertEquals( 60, bassGuitar.getBuyPrice() );
