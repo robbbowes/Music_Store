@@ -9,5 +9,6 @@ public enum instrumentType {
     KEYBOARD,
     PERCUSSION,
     STRINGED,
-    WOODWIND
+    WOODWIND,
+    MISCELLANEOUS
 }

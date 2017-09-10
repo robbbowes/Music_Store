@@ -48,4 +48,10 @@ public class PercussionTest {
         Percussion drumkit = new Percussion(instrumentType.PERCUSSION, "Drumkit with flames", 130, 300, "Special skins");
         assertEquals( 170.00, drumkit.getProfit(), -0.1 );
     }
+
+    @Test
+    public void getFamily() {
+        Percussion drumkit = new Percussion(instrumentType.PERCUSSION, "Drumkit with flames", 130, 300, "Special skins");
+        assertEquals( instrumentType.PERCUSSION, drumkit.getFamily());
+    }
 }
