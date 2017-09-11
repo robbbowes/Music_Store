@@ -37,4 +37,10 @@ public class MiscellaneousTest {
         assertEquals( 12, pianosheetmusic.getSellPrice());
     }
 
+    @Test
+    public void getFamily() {
+        Miscellaneous pianosheetmusic = new Miscellaneous( "Piano sheet music for beginners", 5, 12, instrumentType.MISCELLANEOUS );
+        assertEquals( instrumentType.MISCELLANEOUS, pianosheetmusic.getFamily() );
+    }
+
 }

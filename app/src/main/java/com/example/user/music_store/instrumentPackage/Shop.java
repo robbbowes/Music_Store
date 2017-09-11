@@ -11,7 +11,7 @@ import java.util.ArrayList;
 public class Shop {
 
     private String shopName;
-    ArrayList<Sellable> stock;
+    private ArrayList<Sellable> stock;
 
     public Shop(String shopName, ArrayList<Sellable> stock) {
         this.shopName = shopName;
@@ -52,7 +52,7 @@ public class Shop {
 }
 
 //    public ArrayList<Integer> viewSellablePrices() {
-//        for( int index = stock.size() - 1; index >= 0; index++ ) {
+//        for( int index = stock.size() - 1; index >= 0; index-- ) {
 //            this.stock.get(index).getSellPrice();
 //        }
 //    }

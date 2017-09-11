@@ -9,10 +9,10 @@ import com.example.user.music_store.Sellable;
 
 public abstract class Instrument implements Playable, Sellable {
 
-    Enum<instrumentType> family;
-    String name;
-    int buyPrice;
-    int sellPrice;
+    private Enum<instrumentType> family;
+    private String name;
+    private int buyPrice;
+    private int sellPrice;
 
     public Instrument(Enum<instrumentType> family, String name, int buyPrice, int sellPrice){
         this.family = family;

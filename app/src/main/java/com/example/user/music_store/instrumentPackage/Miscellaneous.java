@@ -8,10 +8,10 @@ import com.example.user.music_store.Sellable;
 
 public class Miscellaneous implements Sellable {
 
-    Enum<instrumentType> family;
-    String description;
-    int buyPrice;
-    int sellPrice;
+    private Enum<instrumentType> family;
+    private String description;
+    private int buyPrice;
+    private int sellPrice;
 
     public Miscellaneous(String description, int buyPrice, int sellPrice, Enum<instrumentType> family) {
         this.description = description;
